@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp Converter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="maincont">
+    <div class="firsection">
+        <div id="heading">Tempratue Converter</div>
+        <div>
+            <div class="box">
+                <div class="smlbox">
+                 <select id="choosefrom">
+                    <option>
+                        Celsius
+                    </option>
+                    <option>Kelvin</option>
+                    <option>Fahrenheit</option>
+                 </select>   
+                 <span style="font-size: medium; font-weight: 400;">to</span>
+                 <select id="chooseto">
+
+                    <option>Kelvin</option>
+                    <option>Fahrenheit</option>
+                    <option>
+                        Celsius   </option>
+                 </select>
+                </div>
+                <div class="conversion">
+                    <span id="from">Celsius</span>
+                    <input id="ipa"/>
+                </div>
+                <div class="smlbox">
+                    <button id="convert" >Convert</button>
+                    <button id="reset">Reset</button>
+                </div>
+                <div class="conversion">
+                    <span id="to">Kelvin</span>
+                    <input id="ipb" readonly/>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="secsection">
+        <div class="effect"></div>
+    </div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
